@@ -1,0 +1,132 @@
+
+/* Changed Color for Dark Version */
+:root .dark-theme {
+	/* primary color / color one */
+	--color-one: #ff7055;
+	--color-one-rgb: 255, 112, 85;
+	
+	/* color two */
+	--color-two: #ffffff;
+	--color-two-rgb: 255, 255, 255;
+	
+	/* color three */
+	--color-three: #ebebeb;
+	--color-three-rgb: 235, 235, 235;
+	
+	/* color four */
+	--color-four: #111111;
+	--color-four-rgb: 17, 17, 17;
+
+	/* color five */
+	--color-five: #141414;
+	--color-five-rgb: 20, 20, 20;
+
+	/* color six */
+	--color-six: #919191;
+	--color-six-rgb: 145, 145, 145;
+
+	/* color seven */
+	--color-seven: #000000;
+	--color-seven-rgb: 0, 0, 0;
+	
+	/* color eight */
+	--color-eight: #9ba685;
+	--color-eight-rgb: 155, 166, 133;
+
+	/* color nine */
+	--color-nine: #2e2e2e;
+	--color-nine-rgb: 46, 46, 46;
+
+	/* color Ten */
+	--color-ten: #C00121;
+	--color-ten-rgb: 192, 1, 33;
+
+	/* color Eleven */
+	--color-eleven: #FFB14F;
+	--color-eleven-rgb: 255, 177, 79;
+
+	/* color Tweleve */
+	--color-tweleve: #252525;
+	--color-twelve-rgb: 37, 37, 37;
+
+	
+	/* #000000 in decimal RGB */
+	--color-white: #000000 !important;
+	--color-white-rgb: 0,0,0;
+	
+	/* #ffffff in decimal RGB */
+	--color-black: #ffffff !important;
+	--color-black-rgb: 255,255,255;
+}
+
+
+
+/* Dark Theme BG Color */
+.dark-theme {
+    background-color: #111111;
+}
+
+/* Fixed/Unchanged Color from "global.css" for these parts of the theme for Dark Version */
+.dark-theme .mr_menu,
+.dark-theme .newsletter,
+.dark-theme .newsletter_form .form-control,
+.dark-theme .newsletter_form [type="submit"].btn {
+    /* color two */
+	--color-two: #1b1b1b;
+	--color-two-rgb: 27, 27, 27;
+
+	/* color three */
+	--color-three: #616161;
+	--color-three-rgb: 97, 97, 97;
+
+    /* color five */
+	--color-five: #fbf8f3;
+	--color-five-rgb: 251, 248, 243;
+
+    /* #ffffff in decimal RGB */
+	--color-white: #ffffff !important;
+	--color-white-rgb: 255,255,255;
+	
+	/* #000000 in decimal RGB */
+	--color-black: #000000 !important;
+	--color-black-rgb: 0,0,0;
+}
+
+/* Changed Color for these parts of the theme for Dark Version */
+.dark-theme .blog_post .tags a {
+	color: var(--color-black);
+}
+.dark-theme .blog_post.style_six .post_header .post_title a{
+	color: var(--color-black);
+}
+.dark-theme .blog_post.style_six .post_header .post_title a:hover {
+	color: var(--color-one);
+}
+.dark-theme .blog_post.style_six .post_footer .element,
+.dark-theme .blog_post.style_six .post_footer .element a {
+	color: var(--color-black);
+}
+.dark-theme .blog_post.style_six .post_footer .element.author,
+.dark-theme .blog_post.style_six .post_footer .element a:hover {
+	color: var(--color-one);
+}
+
+/* Dark Theme Logo */
+.dark-theme .logo_light_mode,
+.dark-theme .mainnav ul.main_menu li a.logo_light_mode {
+    opacity: 0;
+    visibility: hidden;
+}
+.dark-theme .logo_dark_mode,
+.dark-theme .mainnav ul.main_menu li a.logo_dark_mode {
+    opacity: 1;
+    visibility: visible;
+}
+.dark-theme .mr_menu .logo_light_mode{
+    opacity: 1;
+    visibility: visible;
+}
+.dark-theme .mr_menu .logo_dark_mode{
+    opacity: 0;
+    visibility: hidden;
+}

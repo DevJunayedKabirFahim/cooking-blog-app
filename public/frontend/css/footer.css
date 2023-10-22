@@ -1,0 +1,344 @@
+/*=========== Footer =========*/
+
+.footer {
+  position: relative;
+  background: var(--color-white);
+}
+
+.footer ul {
+  padding: 0;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+
+.footer ul li {
+  list-style-type: none;
+}
+
+.footer .widget_title {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: left;
+}
+
+.footer .widget_title span {
+  background: transparent;
+  padding: 0px;
+}
+
+.footer .footer_links {
+  padding-left: 70px;
+}
+
+
+/*-- Footer Nav --*/
+.footer .footer_nav li {
+  position: relative;
+  padding: 8px 0px;
+}
+
+.footer .footer_nav li:first-child {
+  padding-top: 0px;
+}
+
+.footer .footer_nav li a {
+  position: relative;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-four);
+  display: block;
+  padding-left: 0px;
+  text-decoration: none;
+}
+
+.footer .footer_nav li a:hover {
+  color: var(--color-one);
+}
+
+
+
+/*-- Address --*/
+.footer .footer_contact {
+  padding-left: 55px;
+}
+.contact_info ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact_info ul li {
+  position: relative;
+  font-size: 16px;
+  line-height: 24px;
+  color: #272727;
+  padding: 13px 0px;
+  display: block;
+}
+
+.contact_info ul li.phone {
+  font-size: 18px;
+  color: var(--color-one);
+}
+
+.contact_info ul li img {
+  margin-right: 15px;
+}
+
+.contact_info ul li span {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-white);
+  padding: 0px 10px;
+}
+
+.contact_info ul li:first-child {
+  padding-top: 0px;
+}
+
+.contact_info ul li:last-child {
+  padding-bottom: 0px;
+}
+
+/* Most Read */
+.footer .widget_popular_posts ul li .post_thumbnail {
+  border-radius: 0px;
+  border-width: 0px;
+}
+.footer .widget_popular_posts ul li h5 {
+  font-weight: 700;
+}
+.footer .widget_popular_posts ul li h5 a {
+  color: var(--color-eight);
+}
+
+/* Footer Bottom */
+.footer .footer_bottom {
+  margin-top: 45px;
+}
+.footer .footer_bottom .footer_bottom_inner {
+  text-align: center;
+  color: var(--color-white);
+}
+
+/* Social */
+.footer .footer_social {
+  text-align: right;
+}
+
+.footer .footer_social .bottom_social {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.footer .footer_social .bottom_social li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+}
+.footer .footer_social .bottom_social li:not(:last-child) {
+  padding-right: 30px;
+}
+
+.footer .footer_social .bottom_social li a {
+  font-size: 16px;
+  text-align: center;
+  display: block;
+  outline: none;
+}
+
+.footer .footer_social .bottom_social li a:hover {
+  color: var(--color-one);
+}
+
+/* Instagram  */
+.instagram-posts ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.instagram-posts ul li {
+  flex: 1;
+  min-width: 85px;
+  max-width: 190px;
+  margin: 0px 0px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.instagram-posts ul li a {
+  width: 100%;
+  display: block;
+}
+
+.instagram-posts ul li img {
+  width: 100%;
+}
+
+.footer .footer_middle {
+  border-top: 1px solid var(--color-tweleve);
+}
+.footer .footer_nav ul {
+  display: flex;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.footer .footer_nav ul li {
+  flex: auto;
+  padding: 0px 27px;
+}
+
+.footer .footer_nav ul li:first-child {
+  padding-left: 0px;
+}
+
+.footer .footer_nav ul li:last-child {
+  padding-right: 0px;
+}
+
+.footer .footer_nav ul li a {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-white);
+}
+
+.footer .footer_nav ul li a:hover {
+  color: var(--color-one);
+}
+
+.footer .copyright {
+  margin-top: 0px;
+}
+
+.footer .copyright p {
+  font-size: 15px;
+  color: var(--color-six);
+}
+
+.footer .copyright p a {
+  color: var(--color-eight);
+}
+
+.footer .footer_newsletter {
+  padding-right: 30px;
+}
+
+.footer .footer_newsletter h4 {
+  
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.footer .footer_newsletter h6 {
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  font-weight: 400;
+  color: #c4c8ff;
+  margin: 20px 0px 25px 0px;
+}
+
+.footer .footer_newsletter input {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  border: 0px;
+  border-radius: 0px;
+  margin: 5px 0px;
+  outline: none;
+}
+
+.footer .footer_newsletter input:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.footer .footer_newsletter input[type="text"] {
+  font-family: var(--font-family-base);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-four);
+  padding: 5px 10px;
+}
+
+.footer .footer_newsletter input[type="submit"] {
+  
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: var(--color-one);
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.footer .footer_newsletter ::-webkit-input-placeholder {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-four);
+}
+
+.footer .footer_newsletter ::-moz-placeholder {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-four);
+}
+
+.footer .footer_newsletter :-ms-input-placeholder {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-four);
+}
+
+.footer .footer_newsletter :-moz-placeholder {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-four);
+}
+
+.footer .footer_newsletter :placeholder {
+  font-family: var(--font-family-base);
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--color-four);
+}
+
+.footer .instafeed_text {
+  font-size: 15px;
+  font-weight: 400;
+  background-color: var(--color-white);
+  padding: 5px;
+  z-index: 1;
+}
+.footer .instafeed_text a {
+  border: 1px solid var(--color-four);
+}
+
+/* Black Version */
+.footer.bg-black a {
+  color: var(--color-six);
+}
+.footer.bg-black .footer_middle {
+  border-top: 1px solid rgba(var(--color-three-rgb), 0.5);
+}
+
+@media screen and (max-width: 767px){
+  .footer .instagram-posts ul li {
+      min-width: 150px;
+  }
+}

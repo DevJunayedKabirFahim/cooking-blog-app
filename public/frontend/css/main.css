@@ -1,0 +1,40 @@
+/*
+    [ Shortcode Stylesheet ]
+    <?xml version="1.0" encoding="UTF-8"?>
+
+    Theme Name: Hashtag - Blogging Template
+    Version: 1.0
+    Author: WPThemeBooster
+    Author URI: www.wpthemebooster.com
+    Description: This template usable to build website for Blogging.
+    Date: 12/07/2023
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+#01  Fonts and Other Styles Import
+#02  Theme Reset Style
+#03  Others
+-----------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&amp;family=Roboto:wght@400;500;700&amp;display=swap');
+@import url("../fonts/ionicons/css/ionicons.css");
+@import url("../fonts/bootstrap-icons/bootstrap-icons.css");
+@import url("bootstrap.min.css");
+
+@import url("../plugins/swiper/swiper-bundle.min.css");
+@import url("../plugins/fancybox/jquery.fancybox.css");
+
+
+@import url('global.css');
+@import url('header.css');
+@import url('footer.css');
+@import url('blog.css');
+@import url('sidebar.css');
+@import url('slider.css');
+@import url('contact.css');
+@import url('shop.css');
+@import url('style.css');
+@import url('dark.css');
+
+
+@import url('responsive.css');
